@@ -1,3 +1,6 @@
+from neopixel import Color
+
+
 class LMState:
 	def __init__(self, width, height, color = Color(255, 255, 255)):
 		self.width = width
